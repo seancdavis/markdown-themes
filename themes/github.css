@@ -1,4 +1,11 @@
-/* line 1, ../scss/github-md.scss */
+/*
+ * GitHub Markdown Theme
+ *
+ * Credit for the base styles goes to 
+ * Andy Ferra (https://github.com/andyferra).
+ *
+ */
+/* line 8, ../scss/github.scss */
 body {
   font-family: Helvetica, arial, sans-serif;
   font-size: 14px;
@@ -9,27 +16,27 @@ body {
   padding: 30px;
 }
 
-/* line 10, ../scss/github-md.scss */
+/* line 17, ../scss/github.scss */
 body > *:first-child {
   margin-top: 0 !important;
 }
 
-/* line 12, ../scss/github-md.scss */
+/* line 19, ../scss/github.scss */
 body > *:last-child {
   margin-bottom: 0 !important;
 }
 
-/* line 15, ../scss/github-md.scss */
+/* line 22, ../scss/github.scss */
 a {
   color: #4183C4;
 }
 
-/* line 17, ../scss/github-md.scss */
+/* line 24, ../scss/github.scss */
 a.absent {
   color: #cc0000;
 }
 
-/* line 19, ../scss/github-md.scss */
+/* line 26, ../scss/github.scss */
 a.anchor {
   display: block;
   padding-left: 30px;
@@ -41,7 +48,7 @@ a.anchor {
   bottom: 0;
 }
 
-/* line 29, ../scss/github-md.scss */
+/* line 36, ../scss/github.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 20px 0 10px;
   padding: 0;
@@ -51,82 +58,82 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-/* line 37, ../scss/github-md.scss */
+/* line 44, ../scss/github.scss */
 h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
   background: url("../../images/modules/styleguide/para.png") no-repeat 10px center;
   text-decoration: none;
 }
 
-/* line 41, ../scss/github-md.scss */
+/* line 48, ../scss/github.scss */
 h1 tt, h1 code {
   font-size: inherit;
 }
 
-/* line 44, ../scss/github-md.scss */
+/* line 51, ../scss/github.scss */
 h2 tt, h2 code {
   font-size: inherit;
 }
 
-/* line 47, ../scss/github-md.scss */
+/* line 54, ../scss/github.scss */
 h3 tt, h3 code {
   font-size: inherit;
 }
 
-/* line 50, ../scss/github-md.scss */
+/* line 57, ../scss/github.scss */
 h4 tt, h4 code {
   font-size: inherit;
 }
 
-/* line 53, ../scss/github-md.scss */
+/* line 60, ../scss/github.scss */
 h5 tt, h5 code {
   font-size: inherit;
 }
 
-/* line 56, ../scss/github-md.scss */
+/* line 63, ../scss/github.scss */
 h6 tt, h6 code {
   font-size: inherit;
 }
 
-/* line 59, ../scss/github-md.scss */
+/* line 66, ../scss/github.scss */
 h1 {
   font-size: 28px;
   color: black;
 }
 
-/* line 63, ../scss/github-md.scss */
+/* line 70, ../scss/github.scss */
 h2 {
   font-size: 24px;
   border-bottom: 1px solid #cccccc;
   color: black;
 }
 
-/* line 68, ../scss/github-md.scss */
+/* line 75, ../scss/github.scss */
 h3 {
   font-size: 18px;
 }
 
-/* line 71, ../scss/github-md.scss */
+/* line 78, ../scss/github.scss */
 h4 {
   font-size: 16px;
 }
 
-/* line 74, ../scss/github-md.scss */
+/* line 81, ../scss/github.scss */
 h5 {
   font-size: 14px;
 }
 
-/* line 77, ../scss/github-md.scss */
+/* line 84, ../scss/github.scss */
 h6 {
   color: #777777;
   font-size: 14px;
 }
 
-/* line 81, ../scss/github-md.scss */
+/* line 88, ../scss/github.scss */
 p, blockquote, ul, ol, dl, li, table, pre {
   margin: 15px 0;
 }
 
-/* line 84, ../scss/github-md.scss */
+/* line 91, ../scss/github.scss */
 hr {
   background: transparent url("../../images/modules/pulls/dirty-shade.png") repeat-x 0 0;
   border: 0 none;
@@ -135,67 +142,67 @@ hr {
   padding: 0;
 }
 
-/* line 91, ../scss/github-md.scss */
+/* line 98, ../scss/github.scss */
 body > h2:first-child {
   margin-top: 0;
   padding-top: 0;
 }
 
-/* line 94, ../scss/github-md.scss */
+/* line 101, ../scss/github.scss */
 body > h1:first-child {
   margin-top: 0;
   padding-top: 0;
 }
 
-/* line 97, ../scss/github-md.scss */
+/* line 104, ../scss/github.scss */
 body > h1:first-child + h2 {
   margin-top: 0;
   padding-top: 0;
 }
 
-/* line 100, ../scss/github-md.scss */
+/* line 107, ../scss/github.scss */
 body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
   margin-top: 0;
   padding-top: 0;
 }
 
-/* line 104, ../scss/github-md.scss */
+/* line 111, ../scss/github.scss */
 a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
   margin-top: 0;
   padding-top: 0;
 }
 
-/* line 108, ../scss/github-md.scss */
+/* line 115, ../scss/github.scss */
 h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
   margin-top: 0;
 }
 
-/* line 111, ../scss/github-md.scss */
+/* line 118, ../scss/github.scss */
 li p.first {
   display: inline-block;
 }
 
-/* line 114, ../scss/github-md.scss */
+/* line 121, ../scss/github.scss */
 ul, ol {
   padding-left: 30px;
 }
 
-/* line 117, ../scss/github-md.scss */
+/* line 124, ../scss/github.scss */
 ul :first-child, ol :first-child {
   margin-top: 0;
 }
 
-/* line 120, ../scss/github-md.scss */
+/* line 127, ../scss/github.scss */
 ul :last-child, ol :last-child {
   margin-bottom: 0;
 }
 
-/* line 123, ../scss/github-md.scss */
+/* line 130, ../scss/github.scss */
 dl {
   padding: 0;
 }
 
-/* line 125, ../scss/github-md.scss */
+/* line 132, ../scss/github.scss */
 dl dt {
   font-size: 14px;
   font-weight: bold;
@@ -204,60 +211,60 @@ dl dt {
   margin: 15px 0 5px;
 }
 
-/* line 131, ../scss/github-md.scss */
+/* line 138, ../scss/github.scss */
 dl dt:first-child {
   padding: 0;
 }
 
-/* line 133, ../scss/github-md.scss */
+/* line 140, ../scss/github.scss */
 dl dt > :first-child {
   margin-top: 0;
 }
 
-/* line 135, ../scss/github-md.scss */
+/* line 142, ../scss/github.scss */
 dl dt > :last-child {
   margin-bottom: 0;
 }
 
-/* line 137, ../scss/github-md.scss */
+/* line 144, ../scss/github.scss */
 dl dd {
   margin: 0 0 15px;
   padding: 0 15px;
 }
 
-/* line 140, ../scss/github-md.scss */
+/* line 147, ../scss/github.scss */
 dl dd > :first-child {
   margin-top: 0;
 }
 
-/* line 142, ../scss/github-md.scss */
+/* line 149, ../scss/github.scss */
 dl dd > :last-child {
   margin-bottom: 0;
 }
 
-/* line 145, ../scss/github-md.scss */
+/* line 152, ../scss/github.scss */
 blockquote {
   border-left: 4px solid #dddddd;
   padding: 0 15px;
   color: #777777;
 }
 
-/* line 149, ../scss/github-md.scss */
+/* line 156, ../scss/github.scss */
 blockquote > :first-child {
   margin-top: 0;
 }
 
-/* line 151, ../scss/github-md.scss */
+/* line 158, ../scss/github.scss */
 blockquote > :last-child {
   margin-bottom: 0;
 }
 
-/* line 154, ../scss/github-md.scss */
+/* line 161, ../scss/github.scss */
 table {
   padding: 0;
 }
 
-/* line 156, ../scss/github-md.scss */
+/* line 163, ../scss/github.scss */
 table tr {
   border-top: 1px solid #cccccc;
   background-color: white;
@@ -265,12 +272,12 @@ table tr {
   padding: 0;
 }
 
-/* line 161, ../scss/github-md.scss */
+/* line 168, ../scss/github.scss */
 table tr:nth-child(2n) {
   background-color: #f8f8f8;
 }
 
-/* line 163, ../scss/github-md.scss */
+/* line 170, ../scss/github.scss */
 table tr th {
   font-weight: bold;
   border: 1px solid #cccccc;
@@ -279,7 +286,7 @@ table tr th {
   padding: 6px 13px;
 }
 
-/* line 169, ../scss/github-md.scss */
+/* line 176, ../scss/github.scss */
 table tr td {
   border: 1px solid #cccccc;
   text-align: left;
@@ -287,28 +294,28 @@ table tr td {
   padding: 6px 13px;
 }
 
-/* line 174, ../scss/github-md.scss */
+/* line 181, ../scss/github.scss */
 table tr th :first-child, table tr td :first-child {
   margin-top: 0;
 }
 
-/* line 176, ../scss/github-md.scss */
+/* line 183, ../scss/github.scss */
 table tr th :last-child, table tr td :last-child {
   margin-bottom: 0;
 }
 
-/* line 179, ../scss/github-md.scss */
+/* line 186, ../scss/github.scss */
 img {
   max-width: 100%;
 }
 
-/* line 182, ../scss/github-md.scss */
+/* line 189, ../scss/github.scss */
 span.frame {
   display: block;
   overflow: hidden;
 }
 
-/* line 185, ../scss/github-md.scss */
+/* line 192, ../scss/github.scss */
 span.frame > span {
   border: 1px solid #dddddd;
   display: block;
@@ -319,13 +326,13 @@ span.frame > span {
   width: auto;
 }
 
-/* line 193, ../scss/github-md.scss */
+/* line 200, ../scss/github.scss */
 span.frame span img {
   display: block;
   float: left;
 }
 
-/* line 196, ../scss/github-md.scss */
+/* line 203, ../scss/github.scss */
 span.frame span span {
   clear: both;
   color: #333333;
@@ -333,14 +340,14 @@ span.frame span span {
   padding: 5px 0 0;
 }
 
-/* line 201, ../scss/github-md.scss */
+/* line 208, ../scss/github.scss */
 span.align-center {
   display: block;
   overflow: hidden;
   clear: both;
 }
 
-/* line 205, ../scss/github-md.scss */
+/* line 212, ../scss/github.scss */
 span.align-center > span {
   display: block;
   overflow: hidden;
@@ -348,20 +355,20 @@ span.align-center > span {
   text-align: center;
 }
 
-/* line 210, ../scss/github-md.scss */
+/* line 217, ../scss/github.scss */
 span.align-center span img {
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 213, ../scss/github-md.scss */
+/* line 220, ../scss/github.scss */
 span.align-right {
   display: block;
   overflow: hidden;
   clear: both;
 }
 
-/* line 217, ../scss/github-md.scss */
+/* line 224, ../scss/github.scss */
 span.align-right > span {
   display: block;
   overflow: hidden;
@@ -369,13 +376,13 @@ span.align-right > span {
   text-align: right;
 }
 
-/* line 222, ../scss/github-md.scss */
+/* line 229, ../scss/github.scss */
 span.align-right span img {
   margin: 0;
   text-align: right;
 }
 
-/* line 225, ../scss/github-md.scss */
+/* line 232, ../scss/github.scss */
 span.float-left {
   display: block;
   margin-right: 13px;
@@ -383,12 +390,12 @@ span.float-left {
   float: left;
 }
 
-/* line 230, ../scss/github-md.scss */
+/* line 237, ../scss/github.scss */
 span.float-left span {
   margin: 13px 0 0;
 }
 
-/* line 232, ../scss/github-md.scss */
+/* line 239, ../scss/github.scss */
 span.float-right {
   display: block;
   margin-left: 13px;
@@ -396,7 +403,7 @@ span.float-right {
   float: right;
 }
 
-/* line 237, ../scss/github-md.scss */
+/* line 244, ../scss/github.scss */
 span.float-right > span {
   display: block;
   overflow: hidden;
@@ -404,7 +411,7 @@ span.float-right > span {
   text-align: right;
 }
 
-/* line 243, ../scss/github-md.scss */
+/* line 250, ../scss/github.scss */
 code, tt {
   margin: 0 2px;
   padding: 0 5px;
@@ -414,7 +421,7 @@ code, tt {
   border-radius: 3px;
 }
 
-/* line 251, ../scss/github-md.scss */
+/* line 258, ../scss/github.scss */
 pre code {
   margin: 0;
   padding: 0;
@@ -423,7 +430,7 @@ pre code {
   background: transparent;
 }
 
-/* line 258, ../scss/github-md.scss */
+/* line 265, ../scss/github.scss */
 .highlight pre {
   background-color: #f8f8f8;
   border: 1px solid #cccccc;
@@ -434,7 +441,7 @@ pre code {
   border-radius: 3px;
 }
 
-/* line 267, ../scss/github-md.scss */
+/* line 274, ../scss/github.scss */
 pre {
   background-color: #f8f8f8;
   border: 1px solid #cccccc;
@@ -445,7 +452,7 @@ pre {
   border-radius: 3px;
 }
 
-/* line 275, ../scss/github-md.scss */
+/* line 282, ../scss/github.scss */
 pre code, pre tt {
   background-color: transparent;
   border: none;
