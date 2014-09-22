@@ -3,7 +3,7 @@
  * Variables
  *
  */
-/* line 19, ../scss/notes.scss */
+/* line 19, ../styles/notes.scss */
 body {
   padding: 25px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -11,36 +11,36 @@ body {
   color: #444444;
 }
 
-/* line 26, ../scss/notes.scss */
+/* line 26, ../styles/notes.scss */
 p {
   line-height: 20px;
 }
 
-/* line 30, ../scss/notes.scss */
+/* line 30, ../styles/notes.scss */
 h1 {
   font-size: 32px;
 }
 
-/* line 34, ../scss/notes.scss */
+/* line 34, ../styles/notes.scss */
 h2 {
   font-size: 28px;
   padding: 0 0 7.5px 0;
   border-bottom: 1px solid #d5d5d5;
 }
 
-/* line 40, ../scss/notes.scss */
+/* line 40, ../styles/notes.scss */
 h3 {
   font-size: 24px;
   font-weight: 200;
 }
 
-/* line 45, ../scss/notes.scss */
+/* line 45, ../styles/notes.scss */
 h4 {
   color: #afafaf;
   text-transform: uppercase;
 }
 
-/* line 50, ../scss/notes.scss */
+/* line 50, ../styles/notes.scss */
 blockquote {
   margin: 0;
   padding: 5px 10px;
@@ -48,22 +48,22 @@ blockquote {
   border-left: 10px solid #c9c9c9;
   background: #efefef;
 }
-/* line 57, ../scss/notes.scss */
+/* line 57, ../styles/notes.scss */
 blockquote p {
   color: #848484;
 }
 
-/* line 62, ../scss/notes.scss */
+/* line 62, ../styles/notes.scss */
 ul {
   margin: 0 0 0 35px;
   padding: 0;
 }
-/* line 66, ../scss/notes.scss */
+/* line 66, ../styles/notes.scss */
 ul li {
   margin: 5px 0;
 }
 
-/* line 71, ../scss/notes.scss */
+/* line 71, ../styles/notes.scss */
 hr {
   height: 1px;
   margin: 15px 0;
@@ -71,7 +71,7 @@ hr {
   background: #d5d5d5;
 }
 
-/* line 78, ../scss/notes.scss */
+/* line 78, ../styles/notes.scss */
 code {
   padding: 2px;
   border-radius: 5px;

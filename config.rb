@@ -1,6 +1,6 @@
 http_path = "/"
 css_dir = "themes"
-sass_dir = "scss"
+sass_dir = "styles"
 #images_dir = "images"
 #javascripts_dir = "javascripts"
 
