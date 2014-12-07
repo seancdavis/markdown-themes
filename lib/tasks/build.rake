@@ -9,14 +9,15 @@ task :build do
 
   Dir.glob("#{config_path}/**/*.yml").each do |file|
     theme = file.split('/')[-2]
-    config = YAML.load_file(file)
-    output_dir = "#{root_path}/styles/config"
-    filename = "_#{theme}.scss"
-    @output_file = "#{output_dir}/#{filename}"
-    FileUtils.rm(@output_file) if File.exists?(@output_file)
-    FileUtils.mkdir_p(output_dir)
-    build_config(config)
-    puts "\n== Wrote new file: #{filename} ============="
+    if config = YAML.load_file(file)
+      output_dir = "#{root_path}/styles/config"
+      filename = "_#{theme}.scss"
+      @output_file = "#{output_dir}/#{filename}"
+      FileUtils.rm(@output_file) if File.exists?(@output_file)
+      FileUtils.mkdir_p(output_dir)
+      build_config(config)
+      puts "\n== Wrote new file: #{filename} ============="
+    end
   end
 end
 
