@@ -1,0 +1,72 @@
+
+// ------------------------------------------ Variables
+
+$primary: #1B8FB8;
+$secondary: #D65030;
+$dark: #444444;
+$light: #efefef;
+
+// ------------------------------------------ Helpers
+
+@import 'vendor/normalize';
+@import 'fonts/droid-serif';
+@import 'fonts/permanent-marker';
+@import 'helpers/colors';
+
+// ------------------------------------------ Wireframe / Globals
+
+* {
+  font-family: 'Droid Serif', Times New Roman, serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 200;
+  color: $dark;
+}
+
+body {
+  padding: 25px;
+}
+
+// ------------------------------------------ Headings
+
+h1 {
+  margin: 30px 0;
+  font-size: 48px;
+  line-height: 38px;
+  font-weight: 400;
+}
+
+h2 {
+  margin: 25px 0;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+// ------------------------------------------ Body Copy
+
+p {
+  margin: 20px 0;
+}
+
+// ------------------------------------------ Components
+
+blockquote {
+  text-align: center;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background: $light-d15;
+}
+
+// ------------------------------------------ Handwriting
+
+div.handwriting {
+
+  * {
+    font-family: 'Permanent Marker', Helvetica, sans-serif;
+  }
+}
