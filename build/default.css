@@ -537,10 +537,10 @@ blockquote > p + p {
 }
 
 /* line 111, ../source/default.scss */
-pre span, pre code span {
+pre code span, pre span {
+  font-family: Consolas, monospace;
   font-size: 12px;
   line-height: 16px;
-  font-family: Consolas, monospace;
 }
 
 /* line 120, ../source/default.scss */

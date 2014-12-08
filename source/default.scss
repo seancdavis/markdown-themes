@@ -107,11 +107,11 @@ blockquote {
   }
 }
 
-pre, pre code {
-  span {
+pre {
+  code span, span {
+    font-family: Consolas, monospace;
     font-size: 12px;
     line-height: 16px;
-    font-family: Consolas, monospace;
   }
 }
 
