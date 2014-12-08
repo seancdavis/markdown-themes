@@ -1,7 +1,5 @@
 http_path = "/"
-css_dir = "themes"
-sass_dir = "styles"
-#images_dir = "images"
-#javascripts_dir = "javascripts"
+css_dir = "build"
+sass_dir = "source"
 
-output_style = :compressed
+output_style = :expanded

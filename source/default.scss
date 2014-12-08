@@ -1,0 +1,93 @@
+
+// ------------------------------------------ Variables
+
+$primary: #1B8FB8;
+$secondary: #D65030;
+$dark: #444444;
+$light: #efefef;
+
+// ------------------------------------------ Helpers
+
+@import 'vendor/normalize';
+@import 'helpers/colors';
+
+// ------------------------------------------ Wireframe / Globals
+
+* {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 200;
+  color: $dark;
+}
+
+body {
+  padding: 25px;
+}
+
+// ------------------------------------------ Headings
+
+h1 {
+  margin: 30px 0;
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: 400;
+}
+
+h2 {
+  margin: 25px 0;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+h3 {
+  margin: 20px 0;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+h4 {
+  margin: 15px 0;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+h5 {
+  margin: 15px 0;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+h6 {
+  margin: 15px 0;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+// ------------------------------------------ Body
+
+p {
+  margin: 15px 0;
+}
+
+code {
+  padding: 2px;
+  font-family: Consolas, monospace;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  border: 1px solid $light-d15;
+  border-radius: 3px;
+  color: $secondary;
+  background-color: $light;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+}

@@ -1,9 +1,0 @@
-globals:
-  fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif"
-  fontSize: 16px
-  fontWeight: 200
-wireframe:
-  padding: 25px
-typography:
-  h1:
-    fontSize: 2.75em
