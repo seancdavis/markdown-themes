@@ -6,17 +6,19 @@ task :build do
 
   root_path = File.expand_path('../../../', __FILE__)
   config_path = "#{root_path}/config"
+  output_dir = "#{root_path}/styles/config"
+  FileUtils.mkdir_p(output_dir)
 
-  Dir.glob("#{config_path}/**/*.yml").each do |file|
-    theme = file.split('/')[-2]
+  Dir.glob("#{output_dir}/*.scss").each { |file| FileUtils.rm(file) }
+
+  Dir.glob("#{config_path}/*.yml").each do |file|
+    theme = file.split('/').last.split('.').first
     if config = YAML.load_file(file)
-      output_dir = "#{root_path}/styles/config"
       filename = "_#{theme}.scss"
       @output_file = "#{output_dir}/#{filename}"
       FileUtils.rm(@output_file) if File.exists?(@output_file)
-      FileUtils.mkdir_p(output_dir)
       build_config(config)
-      puts "\n== Wrote new file: #{filename} ============="
+      puts "\n== Compiled config file: styles/config/#{filename} ============="
     end
   end
 end
