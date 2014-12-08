@@ -69,7 +69,7 @@ h6 {
   font-weight: 400;
 }
 
-// ------------------------------------------ Body
+// ------------------------------------------ Body Copy
 
 p {
   margin: 15px 0;
@@ -90,4 +90,43 @@ code {
 a {
   color: $primary;
   text-decoration: none;
+}
+
+// ------------------------------------------ Components
+
+blockquote {
+  margin: 0;
+  padding: 15px;
+  border: 1px solid $light-d15;
+  background: $light;
+  > p {
+    margin: 0;
+  }
+  > p+p {
+    margin: 15px 0 0 0;
+  }
+}
+
+pre, pre code {
+  span {
+    font-size: 12px;
+    line-height: 16px;
+    font-family: Consolas, monospace;
+  }
+}
+
+// ------------------------------------------ Lists
+
+ul {
+  margin: 15px 0 0 25px;
+  padding: 0;
+  ul {
+    margin: 0 0 0 25px;
+  }
+  li {
+    line-height: 24px;
+    p {
+      margin: 0;
+    }
+  }
 }

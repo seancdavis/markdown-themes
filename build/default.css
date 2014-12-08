@@ -519,3 +519,44 @@ a {
   color: #1B8FB8;
   text-decoration: none;
 }
+
+/* line 97, ../source/default.scss */
+blockquote {
+  margin: 0;
+  padding: 15px;
+  border: 1px solid #c9c9c9;
+  background: #efefef;
+}
+/* line 102, ../source/default.scss */
+blockquote > p {
+  margin: 0;
+}
+/* line 105, ../source/default.scss */
+blockquote > p + p {
+  margin: 15px 0 0 0;
+}
+
+/* line 111, ../source/default.scss */
+pre span, pre code span {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: Consolas, monospace;
+}
+
+/* line 120, ../source/default.scss */
+ul {
+  margin: 15px 0 0 25px;
+  padding: 0;
+}
+/* line 123, ../source/default.scss */
+ul ul {
+  margin: 0 0 0 25px;
+}
+/* line 126, ../source/default.scss */
+ul li {
+  line-height: 24px;
+}
+/* line 128, ../source/default.scss */
+ul li p {
+  margin: 0;
+}
