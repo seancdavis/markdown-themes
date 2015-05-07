@@ -29,6 +29,11 @@ body {
 
 // ------------------------------------------ Headings
 
+h1 {
+  font-size: 38px;
+  line-height: 48px;
+}
+
 h2 {
   margin: 30px 0;
   font-size: 48px;
@@ -60,6 +65,13 @@ hr {
   height: 1px;
   border: none;
   background: $light-d15;
+}
+
+// ------------------------------------------ Title Page
+
+.title-page {
+  margin-top: 50%;
+  text-align: center;
 }
 
 // ------------------------------------------ Handwriting
