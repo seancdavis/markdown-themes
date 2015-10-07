@@ -53,6 +53,18 @@ h4 {
   font-size: modular-scale(0);
 }
 
+// ------------------------------------------ Block
+
+p {
+  margin: 1.5em 0 0 0;
+}
+
+hr {
+  visibility: hidden;
+  margin: 0;
+  page-break-before: always;
+}
+
 // ------------------------------------------ Inline
 
 strong {
