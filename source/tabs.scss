@@ -1,0 +1,60 @@
+
+// ------------------------------------------ Variables
+
+$primary: #477dca;
+$secondary: #D65030;
+$dark: #444444;
+$light: #efefef;
+
+
+
+// ------------------------------------------ Helpers
+
+@import 'vendor/normalize';
+@import 'vendor/bourbon/bourbon';
+@import 'vendor/base/base';
+@import 'helpers/colors';
+
+// ------------------------------------------ Wireframe / Globals
+
+* {
+  font-family: 'Consolas', monospace;
+}
+
+body {
+  padding: 25px;
+}
+
+// ------------------------------------------ Headings
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $helvetica;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: modular-scale(3);
+}
+
+h2 {
+  font-size: modular-scale(2);
+}
+
+h3 {
+  font-size: modular-scale(1);
+}
+
+h4 {
+  font-size: modular-scale(0);
+}
+
+// ------------------------------------------ Inline
+
+strong {
+  color: $primary;
+}
