@@ -72,6 +72,9 @@ blockquote {
   p:first-child {
     margin: 0;
   }
+  & + p {
+    margin: 0;
+  }
 }
 
 // ------------------------------------------ Inline
